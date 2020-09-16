@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+.grid {
+  margin: 5%;
+  padding: 2px;
+  width: 685px;
+  height: 513px;
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(16, 40px);
+  grid-template-rows: repeat(16, 40px);
+  grid-gap: 3px;
+  position: relative;
+  z-index: -2;
+  border: 1px solid;
+  border-color: white solid;
+}
+
+.item1 {
+  background-color: rgb(255, 115, 0);
+}
+
+.item2 {
+  background-color: #FEC691;
+}
+
+.item3 {
+  background-color: rgb(201, 90, 38);
+}
